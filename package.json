@@ -1,0 +1,29 @@
+{
+  "name": "create-danny-stack",
+  "version": "1.0.0",
+  "decription": "decription",
+  "type": "module",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Danny Wu <hiunji64@gmail.com>",
+  "license": "MIT",
+  "deploy": "Netlify",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "typescript": "^5.8.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "create-danny-stack": "dist/index.js"
+  },
+  "devDependencies": {
+    "tsup": "^8.4.0"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test-local": "pnpm link --global",
+    "prepublishOnly": "pnpm run build"
+  }
+}
