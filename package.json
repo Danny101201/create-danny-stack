@@ -1,5 +1,5 @@
 {
-  "name": "create-danny-stack",
+  "name": "@danny101201/create-danny-stack",
   "version": "1.0.0",
   "decription": "decription",
   "type": "module",
@@ -25,5 +25,8 @@
     "build": "tsup",
     "test-local": "pnpm link --global",
     "prepublishOnly": "pnpm run build"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -1,0 +1,1 @@
+add ci to publish npm
