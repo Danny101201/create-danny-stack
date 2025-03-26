@@ -1,6 +1,6 @@
 {
   "name": "@danny101201/create-danny-stack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "decription": "decription",
   "type": "module",
   "main": "index.js",
